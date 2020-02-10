@@ -109,57 +109,86 @@ header, footer {
 
 /* Header Styles */
 
+header {
+  padding: 15px 0;
+}
+.header-divider {
+  width: 100%;
+}
 header .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 0;
 }
 header nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
+  width: 60%;
 }
 header nav ul {
   display: flex;
   justify-content: space-around;
+  width: 45%;
 }
 
 /* ---------- Mobile Styles ---------- */
 
+.content-wrapper {
+  width: 86%;
+}
 .hero-area {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  padding: 50px 0;
+}
+.form-area {
+  padding: 25px 0;
 }
 aside {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  padding: 50px 0;
 }
 .features {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
 }
+.features article {
+  width: 55%;
+}
 .features .feature-items {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  padding: 30px 0;
+}
+.features p {
+  margin : 0;
 }
 .reviews {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  padding: 50px 0;
+}
+.reviews h3 {
+  width: 48%;
 }
 
 /* Footer Area */
 
-footer {
-
+footer .content-wrapper{
+  width: 55%;
+  margin: 50px 0;
 }
 footer .social-icons {
   display: flex;
@@ -170,6 +199,9 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+footer p {
+  margin: 0;
 }
 
 /* About Page */
