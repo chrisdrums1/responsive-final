@@ -306,6 +306,9 @@ footer {
   text-align: center;
   flex-direction: column;
 }
+footer p {
+  margin: 0;
+}
 footer .content-wrapper{
   width: 55%;
   margin: 50px 0;
@@ -319,12 +322,16 @@ footer .social-icons {
   align-items: center;
 }
 footer .social-icons p {
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-footer p {
-  margin: 0;
+footer .social-icons p i {
+  font-size: 1.3125em;
 }
 footer .copyright {
   margin: 20px 0;
@@ -599,6 +606,10 @@ footer .copyright {
  footer p {
      line-height: 1.285;
  }
+ footer .social-icons {
+   width: 12.5em;
+   justify-content: space-between;
+ }
  footer .copyright {
    width: 100%;
  }
@@ -654,9 +665,6 @@ footer .copyright {
 
   header {
     padding: 15px 0;
-  }
-  .hero-area {
-    min-height: 775px;
   }
   .content-wrapper {
     max-width: 960px;
