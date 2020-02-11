@@ -210,13 +210,13 @@ header nav ul {
 /* ---------- Mobile Styles ---------- */
 
 .hero-area {
-  display: flex;
-  justify-content: center;
-  flex-flow: row wrap;
   background-image: url('../img/hero-image.jpg');
   background-size: cover;
   background-position: center;
   min-height: 500px;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
 }
 .hero-area h1 {
   font-size: 2.25em;
@@ -269,7 +269,7 @@ input[type=button] {
 }
 .features article {
   width: 63%;
-  padding: 30px 0;
+  margin: 30px 0;
 }
 .features .features-items {
   display: flex;
@@ -277,8 +277,13 @@ input[type=button] {
   align-items: center;
   flex-flow: row wrap;
 }
+.features i {
+	font-size: 3.75em;
+  margin-bottom: 40px;
+}
 .features p {
   margin: 0;
+  text-align: center;
 }
 .reviews {
   background-color: #2a423a;
