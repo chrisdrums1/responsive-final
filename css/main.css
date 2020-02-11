@@ -140,7 +140,7 @@ p {
 }
 
 img {
-
+  width: 100%;
 }
 
 figure {
@@ -206,6 +206,10 @@ header nav ul {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background-image: url('../img/hero-image.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .hero-area h1 {
   font-size: 2.25em;
